@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    justify-items: center;
+    margin: auto;
+    gap: 1rem;
+}
+
+.card {
+    width: 25rem;
+    min-height: 40rem;
+    box-shadow: 0rem 0rem 1rem rgb(122, 119, 119);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.down {
+    min-height: 23rem;
+    padding: .5rem 1rem 1rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.visit_site {
+    padding: .5rem 1rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem 1rem rgb(122, 119, 119);
+    background-color: blue;
+}
+
+.navbar {
+    height: 60px;
+    background-image: linear-gradient(to right, #A4C4E4, #1CACF4);
+    box-shadow: 0rem .1rem .5rem rgb(71, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #042444;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.contest-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information {
+    width: 60%;
+    margin: auto;
+}
+
+.information p {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    border-bottom: 3px solid rgb(54, 52, 52);
+    font-weight: 300;
+    color: rgb(46, 44, 44);
+}
+
+.heading h1 {
+    text-shadow: .3rem .3rem 1rem #042444b7;
+    font-size: 2.8rem;
+}
+
+footer {
+    min-height: 20rem;
+    background-color: #042444;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    justify-items: center;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 2rem;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.fa-regular,
+.mail {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.textBox {
+    position: relative;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem rgb(31, 30, 30);
+    padding-right: 7rem;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: .5rem 1rem;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    box-shadow: 0 0 1rem rgba(116, 116, 121, 0.438);
+} 

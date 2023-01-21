@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    html {
+        font-size: 50%;
+    }
+
+    footer h3{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    html {
+        font-size: 40%;
+    }
+
+    .grid {
+        width: 90%;
+    }
+
+    footer h3{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    textarea {
+        font-size: 1.4rem;
+        padding-right: 7rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        /* bottom: -3rem; */
+    }
+}
